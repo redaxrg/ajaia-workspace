@@ -1,0 +1,3 @@
+WALKTHROUGH VIDEO: NOT RECORDED
+
+Replace this file's first line with an unlisted Loom or YouTube URL after recording a 3-5 minute walkthrough. Cover: create/edit/format, import Markdown, share as viewer/editor, switch demo accounts, persistence, scope cuts, architecture, and AI verification.

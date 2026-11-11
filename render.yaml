@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ajaia-notes
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/users
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DEMO_ALICE_PASSWORD
+        sync: false
+      - key: DEMO_MARCO_PASSWORD
+        sync: false
